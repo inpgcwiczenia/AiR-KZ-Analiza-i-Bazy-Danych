@@ -1,0 +1,16 @@
+Original data data.csv is available in /OriginalData folder. It's alco copied to /AnalysisData.
+
+Data after analysis is available in:
+* /AnalysisData/data.csv - file contains data on vacuum cleaner sales in Warmian-Masurian Voivodeship:
+** Dni od zakupu - numerical variable; days since purchase. 
+** Marka - string; brand of vacuum cleaner.
+** Wiek kupującego - age of customer.
+** Płeć kupującego - gender of customer.
+** Ocena - customer rating.
+
+* /AnalysisData/data_fin.csv - file contains cumulated information from data.csv. Headers of file are:
+** DniOdZakupu - numerical variable; days since purchase. 
+** Marka - string; brand of vacuum cleaner.
+** Wiek - age of customer.
+** Płeć - gender of customer.
+** Ocena - customer rating.
