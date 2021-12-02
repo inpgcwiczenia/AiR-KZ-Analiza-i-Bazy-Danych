@@ -2,13 +2,13 @@ Original data tb.csv is available in /OriginalData folder. It's alco copied to /
 
 Data after analysis is available in:
 * /AnalysisData/tb.csv - file contains extracted info from pew.sav. Only information about religion and income is extracted. Headers of file are:
- - iso2 - string; country of the patient. 
- - year - string; year of examination.
- - other columns - categorical variables; data on type of tuberculosis
+** iso2 - string; country of the patient. 
+** year - string; year of examination.
+** other columns - categorical variables; data on type of tuberculosis
 
 * /AnalysisData/tb_tidy.csv - file contains cumulated information from tb.csv. Headers of file are:
- - country - string; country of the patient. 
- - year - string; year of examination.
- - cases - positive integer number; amount of cases with confirmed tuberculosis in that year
- - sex - categorical variable; patients gender
- - age - math interval; patients age
+** country - string; country of the patient. 
+** year - string; year of examination.
+** cases - positive integer number; amount of cases with confirmed tuberculosis in that year
+** sex - categorical variable; patients gender
+** age - math interval; patients age
