@@ -4,7 +4,7 @@ Data after analysis is available in:
 * /AnalysisData/tb.csv - file contains extracted info from pew.sav. Only information about religion and income is extracted. Headers of file are:
 
 ** iso2 - string; country of the patient. 
-** year - string; year of examination.
+- year - string; year of examination.
 ** other columns - categorical variables; data on type of tuberculosis
 
 * /AnalysisData/tb_tidy.csv - file contains cumulated information from tb.csv. Headers of file are:
